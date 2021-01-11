@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.PrinterTest, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.WeightsTrain, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.ScalaRegExpTest, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.BenchMarkTest, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.TempTests, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.ProgramSetTest, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.BenchMarks, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ch.epfl.lara.synthesis.stringsolver.MainTest, sbt.SubclassFingerprintWrapper@5b7af8f6, false, [SuiteSelector])[0m

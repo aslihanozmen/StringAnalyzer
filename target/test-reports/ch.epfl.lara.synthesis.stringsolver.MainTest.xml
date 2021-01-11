@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Aslihans-MacBook-Pro.local" name="ch.epfl.lara.synthesis.stringsolver.MainTest" tests="11" errors="0" failures="2" skipped="0" time="-0.011">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.131-b11"/><property name="user.country.format" value="DE"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/aslihanozmen/Downloads/StringSolver"/><property name="java.runtime.version" value="1.8.0_131-b11"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/27/g147wwq52qbdxd143ykk6kd40000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/aslihanozmen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.13.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/aslihanozmen"/><property name="user.timezone" value="Europe/Berlin"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="US-ASCII"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.1.0/libexec/bin/sbt-launch.jar"/><property name="user.name" value="aslihanozmen"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.1.0/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_131"/><property name="java.ext.dirs" value="/Users/aslihanozmen/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Service should filter: By extension" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Service should filter: By file name prefix" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Service should filter: Names starting with dash" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Service should partition : Name of categories unrelated to the name of files" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Service should partition : Categories are numbered" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Service should partition : Name of categories related to the name of files" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Main should keep history" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Main should rename with counters" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Main should suggest renaming" time="-0.001">
+                                                 
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Main should have a working command line" time="-0.001">
+                                                 <failure message="/var/folders/27/g147wwq52qbdxd143ykk6kd40000gn/T/tmpMainTest/file.txt was not exists" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: /var/folders/27/g147wwq52qbdxd143ykk6kd40000gn/T/tmpMainTest/file.txt was not exists
+	at org.scalatest.matchers.ClassicMatchers$class.newTestFailedException(Matchers.scala:158)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.newTestFailedException(MainTest.scala:10)
+	at org.scalatest.matchers.ShouldMatchers$ShouldMethodHelper$.shouldMatcher(ShouldMatchers.scala:888)
+	at org.scalatest.matchers.ShouldMatchers$AnyRefShouldWrapper.should(ShouldMatchers.scala:1451)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$10.apply$mcV$sp(MainTest.scala:210)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$10.apply(MainTest.scala:196)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$10.apply(MainTest.scala:196)
+	at org.scalatest.WordSpec$$anon$1.apply(WordSpec.scala:2264)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1099)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.withFixture(MainTest.scala:10)
+	at org.scalatest.WordSpec$class.invokeWithFixture$1(WordSpec.scala:2261)
+	at org.scalatest.WordSpec$$anonfun$runTest$1.apply(WordSpec.scala:2273)
+	at org.scalatest.WordSpec$$anonfun$runTest$1.apply(WordSpec.scala:2273)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:234)
+	at org.scalatest.WordSpec$class.runTest(WordSpec.scala:2273)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.runTest(MainTest.scala:10)
+	at org.scalatest.WordSpec$$anonfun$runTests$1.apply(WordSpec.scala:2332)
+	at org.scalatest.WordSpec$$anonfun$runTests$1.apply(WordSpec.scala:2332)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:330)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:318)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:318)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:313)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:394)
+	at org.scalatest.WordSpec$class.runTests(WordSpec.scala:2332)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.runTests(MainTest.scala:10)
+	at org.scalatest.Suite$class.run(Suite.scala:1426)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.org$scalatest$WordSpec$$super$run(MainTest.scala:10)
+	at org.scalatest.WordSpec$$anonfun$run$1.apply(WordSpec.scala:2378)
+	at org.scalatest.WordSpec$$anonfun$run$1.apply(WordSpec.scala:2378)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:430)
+	at org.scalatest.WordSpec$class.run(WordSpec.scala:2378)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.run(MainTest.scala:10)
+	at org.scalatest.tools.ScalaTestFramework$ScalaTestRunner.run(ScalaTestFramework.scala:267)
+	at sbt.RunnerWrapper$1.runRunner2(FrameworkWrapper.java:223)
+	at sbt.RunnerWrapper$1.execute(FrameworkWrapper.java:236)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:102)
+	at sbt.TestRunner.run(TestFramework.scala:113)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:258)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:229)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:258)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:258)
+	at sbt.TestFunction.apply(TestFramework.scala:267)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:277)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:257)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:266)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:257)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:167)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:32)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+                                               </testcase><testcase classname="ch.epfl.lara.synthesis.stringsolver.MainTest" name="Main should create multiple commands" time="-0.001">
+                                                 <failure message="/var/folders/27/g147wwq52qbdxd143ykk6kd40000gn/T/tmpMainTest/Algorithm1.txt was exists" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: /var/folders/27/g147wwq52qbdxd143ykk6kd40000gn/T/tmpMainTest/Algorithm1.txt was exists
+	at org.scalatest.matchers.ClassicMatchers$class.newTestFailedException(Matchers.scala:158)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.newTestFailedException(MainTest.scala:10)
+	at org.scalatest.matchers.ClassicMatchers$ResultOfNotWordForAnyRef.be(Matchers.scala:3606)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11$$anonfun$apply$mcV$sp$15$$anonfun$apply$2.apply(MainTest.scala:271)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11$$anonfun$apply$mcV$sp$15$$anonfun$apply$2.apply(MainTest.scala:271)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11$$anonfun$apply$mcV$sp$15.apply(MainTest.scala:271)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11$$anonfun$apply$mcV$sp$15.apply(MainTest.scala:271)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11.apply$mcV$sp(MainTest.scala:271)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11.apply(MainTest.scala:222)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest$$anonfun$11.apply(MainTest.scala:222)
+	at org.scalatest.WordSpec$$anon$1.apply(WordSpec.scala:2264)
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1099)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.withFixture(MainTest.scala:10)
+	at org.scalatest.WordSpec$class.invokeWithFixture$1(WordSpec.scala:2261)
+	at org.scalatest.WordSpec$$anonfun$runTest$1.apply(WordSpec.scala:2273)
+	at org.scalatest.WordSpec$$anonfun$runTest$1.apply(WordSpec.scala:2273)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:234)
+	at org.scalatest.WordSpec$class.runTest(WordSpec.scala:2273)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.runTest(MainTest.scala:10)
+	at org.scalatest.WordSpec$$anonfun$runTests$1.apply(WordSpec.scala:2332)
+	at org.scalatest.WordSpec$$anonfun$runTests$1.apply(WordSpec.scala:2332)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:330)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:318)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:318)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:313)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:394)
+	at org.scalatest.WordSpec$class.runTests(WordSpec.scala:2332)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.runTests(MainTest.scala:10)
+	at org.scalatest.Suite$class.run(Suite.scala:1426)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.org$scalatest$WordSpec$$super$run(MainTest.scala:10)
+	at org.scalatest.WordSpec$$anonfun$run$1.apply(WordSpec.scala:2378)
+	at org.scalatest.WordSpec$$anonfun$run$1.apply(WordSpec.scala:2378)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:430)
+	at org.scalatest.WordSpec$class.run(WordSpec.scala:2378)
+	at ch.epfl.lara.synthesis.stringsolver.MainTest.run(MainTest.scala:10)
+	at org.scalatest.tools.ScalaTestFramework$ScalaTestRunner.run(ScalaTestFramework.scala:267)
+	at sbt.RunnerWrapper$1.runRunner2(FrameworkWrapper.java:223)
+	at sbt.RunnerWrapper$1.execute(FrameworkWrapper.java:236)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:102)
+	at sbt.TestRunner.run(TestFramework.scala:113)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:258)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:229)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:258)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:258)
+	at sbt.TestFunction.apply(TestFramework.scala:267)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:277)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:44)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:257)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:266)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:257)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:167)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:32)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
