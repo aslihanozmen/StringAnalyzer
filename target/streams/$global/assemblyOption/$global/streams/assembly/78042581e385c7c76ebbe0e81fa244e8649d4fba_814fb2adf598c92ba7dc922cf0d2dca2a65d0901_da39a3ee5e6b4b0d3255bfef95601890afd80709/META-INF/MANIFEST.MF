@@ -1,0 +1,124 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1354818515991
+Bundle-Description: ScalaTest is an open-source test framework for the J
+ ava Platform designed to increase your productivity by letting you writ
+ e fewer lines of test code that more clearly reveal your intent.
+Bundle-DocURL: http://www.scalatest.org/
+Bundle-ManifestVersion: 2
+Bundle-Name: ScalaTest
+Bundle-SymbolicName: org.scalatest
+Bundle-Vendor: Artima, Inc.
+Bundle-Version: 2.0.0.M5-B1
+Created-By: 1.6.0_33 (Apple Inc.)
+DSTAMP: 20121206
+Export-Package: org.scalatest.concurrent;uses:="org.scalatest.time,scala
+ .runtime,scala,scala.collection,scala.reflect,org.scalatest.exceptions,
+ org.scalatest,scala.collection.immutable,scala.collection.mutable,org.s
+ calatest.fixture,scala.util,scala.collection.generic,org.scalatest.tool
+ s";version="2.0.0.M5-B1",org.scalatest.testng;uses:="org.testng.annotat
+ ions,scala.reflect,org.testng,scala.collection,scala.collection.immutab
+ le,scala.collection.mutable,org.scalatest.exceptions,scala,org.scalates
+ t.events,org.scalatest,scala.runtime,scala.collection.generic";version=
+ "2.0.0.M5-B1",org.scalatest.tools;uses:="javax.swing.border,javax.swing
+ ,scala.collection.mutable,scala.reflect,org.scalatest,scala.runtime,sca
+ la,scala.collection,scala.collection.immutable,org.scalatest.events,sca
+ la.xml,org.scalatest.exceptions,scala.xml.factory,scala.math,scala.coll
+ ection.generic,org.pegdown,scala.collection.parallel,org.scalatest.juni
+ t,org.scalatest.testng,org.scalatest.time,javax.swing.event,javax.swing
+ .text,scala.util.parsing.combinator,scala.util.parsing.combinator.lexic
+ al,scala.util.parsing.combinator.syntactical,scala.util.parsing.input,o
+ rg.apache.tools.ant.types,org.apache.tools.ant,org.apache.tools.ant.tas
+ kdefs,org.scalatools.testing";version="2.0.0.M5-B1",org.scalatest.time;
+ uses:="scala.collection,scala.runtime,scala,scala.reflect,scala.collect
+ ion.mutable,org.scalatest";version="2.0.0.M5-B1",org.scalatest.fixture;
+ uses:="scala.collection.immutable,org.scalatest,scala.reflect,scala.run
+ time,scala,scala.collection,scala.collection.mutable,org.scalatest.exce
+ ptions,scala.collection.generic,org.scalatest.verb,org.scalatest.events
+ ,scala.io,scala.math";version="2.0.0.M5-B1",org.scalatest.events;uses:=
+ "scala,scala.reflect,scala.collection.immutable,scala.runtime,org.scala
+ test,scala.xml,scala.collection,scala.collection.mutable,org.scalatest.
+ exceptions,scala.collection.generic,scala.math";version="2.0.0.M5-B1",o
+ rg.scalatest.selenium;uses:="scala.collection.immutable,scala.collectio
+ n,org.scalatest.time,org.openqa.selenium.chrome,org.openqa.selenium,sca
+ la.runtime,scala,scala.reflect,org.scalatest,org.openqa.selenium.firefo
+ x,org.openqa.selenium.htmlunit,org.openqa.selenium.ie,org.openqa.seleni
+ um.safari,org.openqa.selenium.support.ui,org.scalatest.exceptions,scala
+ .collection.mutable,scala.collection.convert,scala.collection.generic,s
+ cala.collection.parallel,scala.math,scala.collection.parallel.immutable
+ ,com.google.common.base";version="2.0.0.M5-B1",org.scalatest;uses:="sca
+ la.collection.immutable,scala,scala.reflect,scala.runtime,scala.collect
+ ion,scala.collection.mutable,org.scalatest.exceptions,org.scalatest.eve
+ nts,scala.collection.generic,scala.xml,scala.util,scala.math,org.scalat
+ est.verb,org.scalatest.tools,org.scalatest.time,scala.collection.script
+ ,scala.io,javax.xml.parsers,javax.xml.transform";version="2.0.0.M5-B1",
+ org.scalatest.verb;uses:="scala.reflect,scala.runtime,scala,scala.colle
+ ction,org.scalatest,scala.collection.immutable";version="2.0.0.M5-B1",o
+ rg.scalatest.path;uses:="scala.runtime,scala,org.scalatest,scala.collec
+ tion.immutable,scala.collection,org.scalatest.verb,scala.collection.mut
+ able,scala.reflect,scala.collection.generic";version="2.0.0.M5-B1",org.
+ scalatest.junit;uses:="scala.reflect,scala.runtime,scala,org.scalatest,
+ scala.collection.immutable,scala.collection,scala.collection.mutable,or
+ g.scalatest.events,junit.framework,scala.math,scala.collection.generic,
+ org.junit.runner,org.junit.runner.notification,org.junit,org.scalatest.
+ exceptions,org.scalatest.verb,org.scalatest.matchers";version="2.0.0.M5
+ -B1",org.scalatest.exceptions;uses:="scala.reflect,scala.runtime,scala,
+ scala.collection,scala.collection.mutable,org.scalatest,scala.collectio
+ n.immutable,scala.collection.generic,org.scalatest.time";version="2.0.0
+ .M5-B1",org.scalatest.prop;uses:="org.scalacheck,scala.runtime,scala,sc
+ ala.collection.immutable,scala.collection,scala.collection.mutable,org.
+ scalatest,org.scalatest.exceptions,scala.collection.generic,scala.refle
+ ct,scala.collection.parallel,scala.math";version="2.0.0.M5-B1",org.scal
+ atest.mock;uses:="scala.collection,scala.runtime,scala,org.easymock,sca
+ la.reflect,org.jmock.lib.legacy,org.jmock.api,org.jmock.internal,org.jm
+ ock,org.scalatest.fixture,org.hamcrest,org.mockito,org.mockito.stubbing
+ ";version="2.0.0.M5-B1",org.scalatest.matchers;uses:="scala,scala.refle
+ ct,scala.runtime,scala.collection,scala.collection.mutable,org.scalates
+ t,scala.collection.immutable,scala.collection.parallel,scala.math,scala
+ .collection.generic,scala.xml,scala.util.matching,org.scalatest.excepti
+ ons,org.scalatest.verb";version="2.0.0.M5-B1"
+Import-Package: com.google.common.base;resolution:=optional,javax.swing;
+ resolution:=optional,javax.swing.border;resolution:=optional,javax.swin
+ g.event;resolution:=optional,javax.swing.text;resolution:=optional,java
+ x.xml.parsers;resolution:=optional,javax.xml.transform;resolution:=opti
+ onal,junit.framework;resolution:=optional,org.apache.tools.ant;resoluti
+ on:=optional,org.apache.tools.ant.taskdefs;resolution:=optional,org.apa
+ che.tools.ant.types;resolution:=optional,org.easymock;resolution:=optio
+ nal,org.hamcrest;resolution:=optional,org.jmock;resolution:=optional,or
+ g.jmock.api;resolution:=optional,org.jmock.internal;resolution:=optiona
+ l,org.jmock.lib.legacy;resolution:=optional,org.junit;resolution:=optio
+ nal,org.junit.runner;resolution:=optional,org.junit.runner.notification
+ ;resolution:=optional,org.mockito;resolution:=optional,org.mockito.stub
+ bing;resolution:=optional,org.openqa.selenium;resolution:=optional,org.
+ openqa.selenium.chrome;resolution:=optional,org.openqa.selenium.firefox
+ ;resolution:=optional,org.openqa.selenium.htmlunit;resolution:=optional
+ ,org.openqa.selenium.ie;resolution:=optional,org.openqa.selenium.safari
+ ;resolution:=optional,org.openqa.selenium.support.ui;resolution:=option
+ al,org.pegdown;resolution:=optional,org.scalacheck;resolution:=optional
+ ,org.scalatools.testing;resolution:=optional,org.testng;resolution:=opt
+ ional,org.testng.annotations;resolution:=optional,scala;version="[2.10.
+ 0-RC5, ${version;=+;2.10.0-RC5})",scala.collection;version="[2.10.0-RC5
+ , ${version;=+;2.10.0-RC5})",scala.collection.convert;version="[2.10.0-
+ RC5, ${version;=+;2.10.0-RC5})",scala.collection.generic;version="[2.10
+ .0-RC5, ${version;=+;2.10.0-RC5})",scala.collection.immutable;version="
+ [2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.collection.mutable;versio
+ n="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.collection.parallel;ve
+ rsion="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.collection.paralle
+ l.immutable;version="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.coll
+ ection.script;version="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.io
+ ;version="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.math;version="[
+ 2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.reflect;version="[2.10.0-R
+ C5, ${version;=+;2.10.0-RC5})",scala.runtime;version="[2.10.0-RC5, ${ve
+ rsion;=+;2.10.0-RC5})",scala.util;version="[2.10.0-RC5, ${version;=+;2.
+ 10.0-RC5})",scala.util.matching;version="[2.10.0-RC5, ${version;=+;2.10
+ .0-RC5})",scala.util.parsing.combinator;version="[2.10.0-RC5, ${version
+ ;=+;2.10.0-RC5})",scala.util.parsing.combinator.lexical;version="[2.10.
+ 0-RC5, ${version;=+;2.10.0-RC5})",scala.util.parsing.combinator.syntact
+ ical;version="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.util.parsin
+ g.input;version="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.xml;vers
+ ion="[2.10.0-RC5, ${version;=+;2.10.0-RC5})",scala.xml.factory;version=
+ "[2.10.0-RC5, ${version;=+;2.10.0-RC5})"
+Main-Class: org.scalatest.tools.Runner
+Private-Package: images
+TODAY: December 6 2012
+Tool: Bnd-1.46.0
+TSTAMP: 1028
